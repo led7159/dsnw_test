@@ -1,0 +1,208 @@
+/**
+ * FileName		: common.css
+ * Description	: common
+ * Author		: (주)한국공학기술연구원
+ * Created		: 2015.01.20
+ * Modified		: V1.0 : 2015.01.20 : KSH : 최초 작성
+ * Comment	    :
+ */
+
+/* ========================================================================= */
+/* 초기화 */
+/* ========================================================================= */
+a {
+	color:#333;
+	}
+
+ a:focus {
+  outline: 0;
+  text-decoration: none;
+}
+a:hover,
+a:active {
+  /* Improves readability when focused and also mouse hovered in all browsers people.opera.com/patrickl/experiments/keyboard/test */
+  outline: 0;
+  color: #333;
+  text-decoration: none;
+}
+a img {
+  border: 0;
+}
+
+/* ========================================================================= */
+/* 레이아웃 구성 */
+/* ========================================================================= */
+/*@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);*/
+
+html > body {
+	/*background-color: #989898;*/
+	background-color: white;
+	font-family: 'Nanum Barun Gothic', sans-serif;
+	font-size: 14px;
+	min-width: 1120px;
+	line-height: normal;
+	width: 100%;
+	overflow-y: auto;
+}
+
+
+body {
+	outline:0;
+}
+/* ========================================================================= header */
+#header {
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.header-txt a {
+	color: #666;
+	font-size: 17px;
+}
+
+.container { width: 1170px !important; } 
+
+.content {
+	margin:0 auto;
+	width: 1180px;
+	padding-right:22px;
+	/*overflow: hidden;*/
+}
+
+#gnb {
+	height: 35px;
+	background-color: #f5f2ed;
+	text-align: right;
+	border-bottom: 1px solid #d2d2d2;
+}
+
+.gnb-txt a {
+	font-size: 13px;
+	color: #646464;
+	font-weight: 600;
+}
+
+#logo {
+	float: left;
+	padding-top: 15px;
+	padding-left:24px;
+}
+
+#lnb {
+	height: 55px;
+	background-color: #18982d;
+	border-bottom: 2px solid #79be30;
+}
+
+#lnb #lnb_menu a {
+	color: white;
+	display: block;
+	float: left;
+	font-size: 20px;
+	text-align: center;
+	margin-left:68px;
+	margin-top: 16px;
+}
+.inner {
+	font-size: 17px;
+	font-weight: 600;
+	width: 152px;
+	height: 36px;
+	border-bottom: 2px solid #888;
+	margin-bottom: 25px;
+}
+
+.inner-rest {
+	width: 110px;
+}
+
+.main-menubar {
+	float: left;
+	padding-left: 30px;
+	font-size: 15px;
+	font-weight: 500;
+	text-align:center;
+	margin-left: 45px;
+}
+
+.main-menubar > li {
+	float: left;
+	margin-left: 0px;
+}
+
+.main-menubar > li:first-child {
+	margin-left: 0px;
+}
+.main-menu > li {
+	padding-bottom: 13px;
+}
+
+.main-menu {
+	margin-left: 35px;
+}
+
+.main-menu > li > a {
+	color: #777;
+}
+.main-menubar li{
+	list-style-type:none;
+}
+
+.btn-gnb {
+	float:right; 
+	text-align:center; 
+	padding: 4px 9px; 
+	border-radius: 5px;
+	margin-top: 6px;
+}
+
+/* ========================================================================= footer */
+#footer {
+	background-color: #6c6b69;
+	border: 0;
+	height: 220px;
+	overflow: hidden;
+	padding: 30px 0;
+	clear:both;
+}
+
+#footer-map, #footer-map a{
+	width: 130px;
+	float:left;
+	color: #dcdcdc;
+}
+
+.footer-map-top-txt {
+	font-size: 15px; 
+	font-weight: bold;
+	padding-bottom: 10px;
+	color: white;
+}
+
+.footer-map-bottom-txt {
+	font-size: 13px;
+	line-height: 1.7;
+}
+
+.footer-btn {
+	float:right;
+	width: 190px;
+	height: 70px;
+	border: 1px solid #dcdcdc;
+	color: #dcdcdc;
+	padding: 10px 0 0 15px;
+	font-size: 17px;
+	background-color: #5f5e5d;
+	line-height: 1.5;
+}
+
+.footer-txt, .footer-txt a  {
+	color: #dcdcdc;
+	line-height: 1.7;
+	font-weight: 500; 
+	font-size:13px;
+}
+
+.footer-txt a  {
+	color: #dcdcdc !important;
+}

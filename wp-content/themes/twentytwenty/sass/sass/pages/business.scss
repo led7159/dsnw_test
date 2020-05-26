@@ -1,0 +1,145 @@
+#biz-header .header-text {
+	font-size:24px;
+	color:#2a2a2a;
+	float:left;
+}
+
+#biz-header .header-detail-button {
+	margin-left:12px;
+	font-size:17px;
+	text-align:center;
+	background-color:#cce198;
+	float:right;
+	width:160px;
+	font-weight:600;
+	height:45px;
+	border-radius: 5px;
+	color:#666;
+	padding-top:14px;
+	box-shadow: 1px 1px 2px #999;
+}
+
+#biz-content {
+	clear:both;
+}
+
+
+#biz-content .biz-content-img1 {
+	background: url(../../images/sub/img_business-1.png) no-repeat center center;
+	background-size:cover;
+	width:600px;
+	height:360px;
+}
+
+#biz-content .biz-content-img2 {
+	background: url(../../images/sub/img_business-2.png) no-repeat center center;
+	background-size:cover;
+	width:600px;
+	height:360px;
+}
+
+#biz-content .biz-content-img3 {
+	background: url(../../images/sub/img_business-3.png) no-repeat center center;
+	background-size:cover;
+	width:600px;
+	height:360px;
+}
+
+#biz-content .biz-content-img4 {
+	background: url(../../images/sub/img_business-4.png) no-repeat center center;
+	background-size:cover;
+	width:600px;
+	height:360px;
+}
+
+#biz-content .biz-content-img5 {
+	background: url(../../images/sub/img_business-5.png) no-repeat center center;
+	background-size:cover;
+	width:600px;
+	height:360px;
+}
+
+#biz-content .biz-content-text {
+	border:1px #b2b2b2 solid;
+	background-color:#fff;
+	width:606px;
+	margin-left:533px;
+	line-height:24px;
+	word-break: keep-all;
+	word-wrap: break-word;
+	padding-bottom:15px;
+	font-size:15px;
+}
+
+#biz-content .biz-content-blank {
+	height:14px;
+	width:100%;
+}
+
+#biz-content .apply-content-list {
+	margin-top:30px;
+	margin-left:45px;
+}
+
+#biz-content .apply-header {
+	font-size:20px;
+	list-style-type:none;
+
+}
+
+#biz-content .apply-header a{
+	color:#cc3198;
+}
+
+	
+
+#biz-content .apply-content {
+	color:#666;
+	font-size:15px;
+	list-style-type:none;
+	padding-right:30px;
+	margin-top:15px;
+	line-height:24px;
+}
+
+#biz-etc {
+	margin-top:30px;
+	border-top:2px #63c051 solid;
+}
+
+#biz-etc img {
+	padding-bottom:12px;
+
+}
+
+#biz-table 
+{
+	margin-bottom:60px;
+}
+
+#biz-table .content
+{
+	width:850px;
+	padding-top:25px;
+	padding-left:30px;
+	padding-bottom:25px;
+	color:#666;
+	font-size:15px;
+	padding-right:25px;
+	line-height:24px;
+	border: 1px solid #ccc;
+}
+
+
+#biz-table .title 
+{
+	padding-top:10px;
+	padding-bottom:10px;
+	width:190px;
+	background-color:#f7f6f4;
+	text-align:center;
+	vertical-align:middle;
+	min-height:140px;
+	font-size:17px;
+	border: 1px solid #ccc;
+}

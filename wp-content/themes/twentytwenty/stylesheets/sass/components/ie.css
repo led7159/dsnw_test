@@ -1,0 +1,1101 @@
+/*
+Theme Name: Twenty Fifteen
+Description: Global Styles for older IE versions (previous to IE9).
+*/
+/* line 6, ../../../sass/sass/components/ie.scss */
+body,
+button,
+input,
+select,
+textarea {
+  font-size: 19px;
+  line-height: 1.6842;
+}
+
+/* line 15, ../../../sass/sass/components/ie.scss */
+button,
+input {
+  line-height: normal;
+}
+
+/* line 20, ../../../sass/sass/components/ie.scss */
+p,
+address,
+pre,
+hr,
+ul,
+ol,
+dl,
+dd,
+table {
+  margin-bottom: 1.6842em;
+}
+
+/* line 32, ../../../sass/sass/components/ie.scss */
+ul,
+ol {
+  margin-left: 0;
+}
+
+/* line 37, ../../../sass/sass/components/ie.scss */
+li > ul,
+li > ol,
+blockquote > ul,
+blockquote > ol {
+  margin-left: 1.3333em;
+}
+
+/* line 44, ../../../sass/sass/components/ie.scss */
+blockquote {
+  border-color: inherit;
+  border-style: solid;
+  border-width: 0 0 0 4px;
+  font-size: 22px;
+  line-height: 1.8182;
+  margin-bottom: 1.8182em;
+  margin-left: -1.0909em;
+  padding-left: 0.9091em;
+}
+
+/* line 55, ../../../sass/sass/components/ie.scss */
+blockquote > blockquote {
+  margin-left: 0;
+}
+
+/* line 59, ../../../sass/sass/components/ie.scss */
+blockquote p {
+  margin-bottom: 1.8182em;
+}
+
+/* line 63, ../../../sass/sass/components/ie.scss */
+blockquote cite,
+blockquote small {
+  font-size: 19px;
+  line-height: 1.6842;
+}
+
+/* line 69, ../../../sass/sass/components/ie.scss */
+pre {
+  line-height: 1.2632;
+}
+
+/* line 73, ../../../sass/sass/components/ie.scss */
+.entry-content img,
+.entry-summary img,
+.page-content img,
+.comment-content img,
+.widget img {
+  max-width: 660px;
+}
+
+/* line 81, ../../../sass/sass/components/ie.scss */
+img.size-full,
+img.size-large,
+img.header-image,
+img.wp-post-image,
+img[class*="align"],
+img[class*="wp-image-"],
+img[class*="attachment-"] {
+  height: auto;
+  width: auto;
+  /* Prevent stretching of full-size and large-size images with height and width attributes in IE8 */
+}
+
+/* line 92, ../../../sass/sass/components/ie.scss */
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.post-password-form input[type="submit"],
+.widecolumn #submit,
+.widecolumn .mu_register input[type="submit"] {
+  font-size: 16px;
+  padding: 0.8125em 1.625em;
+}
+
+/* line 103, ../../../sass/sass/components/ie.scss */
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+textarea {
+  padding: 0.5278em;
+}
+
+/* line 112, ../../../sass/sass/components/ie.scss */
+.main-navigation {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 9.0909%;
+}
+
+/* line 118, ../../../sass/sass/components/ie.scss */
+.main-navigation ul ul {
+  border-bottom: 0;
+  border-top: 0;
+  margin-left: 1em;
+}
+
+/* line 124, ../../../sass/sass/components/ie.scss */
+.main-navigation a {
+  padding: 0.75em 0;
+}
+
+/* line 128, ../../../sass/sass/components/ie.scss */
+.main-navigation .menu-item-has-children > a {
+  padding-right: 48px;
+}
+
+/* line 132, ../../../sass/sass/components/ie.scss */
+.main-navigation .menu-item-description {
+  font-size: 13px;
+  line-height: 1.8462;
+  margin-top: 0;
+}
+
+/* line 138, ../../../sass/sass/components/ie.scss */
+.social-navigation {
+  margin: 9.0909%;
+  max-width: 660px;
+  padding-top: 0;
+}
+
+/* line 144, ../../../sass/sass/components/ie.scss */
+.social-navigation ul {
+  margin-bottom: -1.2632em;
+}
+
+/* line 148, ../../../sass/sass/components/ie.scss */
+.social-navigation a {
+  width: 2.5263em;
+  height: 2.5263em;
+}
+
+/* line 153, ../../../sass/sass/components/ie.scss */
+.secondary-toggle {
+  margin-top: -32px;
+  right: 7.6897%;
+  width: 64px;
+  height: 64px;
+}
+
+/* line 160, ../../../sass/sass/components/ie.scss */
+.secondary-toggle:before {
+  line-height: 64px;
+}
+
+/* line 164, ../../../sass/sass/components/ie.scss */
+.post-password-form label,
+.post-navigation .meta-nav,
+.comment-navigation,
+.image-navigation,
+.author-heading,
+.author-bio,
+.entry-footer,
+.page-links a,
+.page-links span,
+.comment-metadata,
+.pingback .edit-link,
+.comment-list .reply,
+.comment-notes,
+.comment-awaiting-moderation,
+.logged-in-as,
+.comment-form label,
+.form-allowed-tags,
+.site-info,
+.wp-caption-text,
+.gallery-caption,
+.entry-caption,
+.widecolumn label,
+.widecolumn .mu_register label {
+  font-size: 16px;
+}
+
+/* line 190, ../../../sass/sass/components/ie.scss */
+.post-navigation .post-title {
+  font-size: 24px;
+  line-height: 1.1667;
+}
+
+/* line 195, ../../../sass/sass/components/ie.scss */
+.pagination .nav-links {
+  min-height: 3.3684em;
+}
+
+/* line 199, ../../../sass/sass/components/ie.scss */
+.pagination .page-numbers {
+  line-height: 3.3684em;
+  padding: 0 0.8421em;
+}
+
+/* line 204, ../../../sass/sass/components/ie.scss */
+.pagination .prev,
+.pagination .next {
+  padding: 0;
+  width: 64px;
+  height: 64px;
+}
+
+/* line 211, ../../../sass/sass/components/ie.scss */
+.pagination .prev:before,
+.pagination .next:before {
+  line-height: 64px;
+  width: 64px;
+  height: 64px;
+}
+
+/* line 218, ../../../sass/sass/components/ie.scss */
+.image-navigation a {
+  display: block;
+  margin-bottom: 2em;
+}
+
+/* line 223, ../../../sass/sass/components/ie.scss */
+.image-navigation .nav-previous,
+.comment-navigation .nav-previous {
+  float: left;
+  width: 50%;
+}
+
+/* line 228, ../../../sass/sass/components/ie.scss */
+.image-navigation .nav-next,
+.comment-navigation .nav-next {
+  float: right;
+  text-align: right;
+  width: 50%;
+}
+
+/* line 235, ../../../sass/sass/components/ie.scss */
+.image-navigation .nav-previous a:before,
+.image-navigation .nav-next a:after,
+.comment-navigation .nav-previous a:before,
+.comment-navigation .nav-next a:after {
+  font-size: 24px;
+  top: -1px;
+}
+
+/* line 243, ../../../sass/sass/components/ie.scss */
+blockquote.alignleft,
+.wp-caption.alignleft,
+img.alignleft {
+  margin: 0.4211em 1.6842em 1.6842em 0;
+}
+
+/* line 249, ../../../sass/sass/components/ie.scss */
+blockquote.alignright,
+.wp-caption.alignright,
+img.alignright {
+  margin: 0.4211em 0 1.6842em 1.6842em;
+}
+
+/* line 255, ../../../sass/sass/components/ie.scss */
+blockquote.aligncenter,
+.wp-caption.aligncenter,
+img.aligncenter {
+  margin-top: 0.4211em;
+  margin-bottom: 1.6842em;
+}
+
+/* line 262, ../../../sass/sass/components/ie.scss */
+.site-header {
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+  padding: 0;
+}
+
+/* line 268, ../../../sass/sass/components/ie.scss */
+.secondary {
+  background-color: #fff;
+  margin: 0 auto;
+  max-width: 807px;
+  padding: 0;
+}
+
+/* line 275, ../../../sass/sass/components/ie.scss */
+.site-main {
+  padding: 7.6923% 0;
+}
+
+/* line 279, ../../../sass/sass/components/ie.scss */
+.site-content {
+  margin: 0 auto;
+  max-width: 954px;
+}
+
+/* line 284, ../../../sass/sass/components/ie.scss */
+.site-branding {
+  background-color: inherit;
+  margin: 0 auto;
+  max-width: 954px;
+  padding: 0;
+}
+
+/* line 291, ../../../sass/sass/components/ie.scss */
+.site-title {
+  font-size: 32px;
+  line-height: 1.25;
+  margin: 7.6897% 7.6897% 0;
+}
+
+/* line 297, ../../../sass/sass/components/ie.scss */
+.site-description {
+  background-color: inherit;
+  display: block;
+  filter: alpha(opacity=70);
+  font-size: 16px;
+  margin: 0.5em 7.6897% 7.6897%;
+}
+
+/* line 305, ../../../sass/sass/components/ie.scss */
+.sidebar {
+  position: static !important;
+}
+
+/* line 309, ../../../sass/sass/components/ie.scss */
+.widget-area {
+  clear: both;
+  margin: 9.0909% 9.0909% 0;
+  max-width: 660px;
+}
+
+/* line 315, ../../../sass/sass/components/ie.scss */
+.widget {
+  font-size: 16px;
+  margin: 0 0 11.1111%;
+}
+
+/* line 320, ../../../sass/sass/components/ie.scss */
+.widget p,
+.widget address,
+.widget hr,
+.widget ul,
+.widget ol,
+.widget dl,
+.widget dd,
+.widget table,
+.widget pre {
+  margin-bottom: 1.5em;
+}
+
+/* line 332, ../../../sass/sass/components/ie.scss */
+.widget li > ul,
+.widget li > ol {
+  margin-bottom: 0;
+}
+
+/* line 337, ../../../sass/sass/components/ie.scss */
+.widget blockquote {
+  font-size: 19px;
+  line-height: 1.6842;
+  margin-bottom: 1.6842em;
+  margin-left: -1.2632em;
+  padding-left: 1.0526em;
+}
+
+/* line 345, ../../../sass/sass/components/ie.scss */
+.widget blockquote > blockquote {
+  margin-left: 0;
+}
+
+/* line 349, ../../../sass/sass/components/ie.scss */
+.widget blockquote p {
+  margin-bottom: 1.6842em;
+}
+
+/* line 353, ../../../sass/sass/components/ie.scss */
+.widget blockquote cite,
+.widget blockquote small {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* line 359, ../../../sass/sass/components/ie.scss */
+.widget pre {
+  line-height: 1.5;
+  padding: 0.75em;
+}
+
+/* line 364, ../../../sass/sass/components/ie.scss */
+.widget button,
+.widget input,
+.widget select,
+.widget textarea {
+  line-height: 1.5;
+}
+
+/* line 371, ../../../sass/sass/components/ie.scss */
+.widget button,
+.widget input {
+  line-height: normal;
+}
+
+/* line 376, ../../../sass/sass/components/ie.scss */
+.widget button,
+.widget input[type="button"],
+.widget input[type="reset"],
+.widget input[type="submit"] {
+  font-size: 16px;
+  padding: 0.8125em 1.625em;
+}
+
+/* line 384, ../../../sass/sass/components/ie.scss */
+.widget input[type="text"],
+.widget input[type="email"],
+.widget input[type="url"],
+.widget input[type="password"],
+.widget input[type="search"],
+.widget textarea {
+  padding: 0.75em;
+}
+
+/* line 393, ../../../sass/sass/components/ie.scss */
+.widget-title {
+  margin: 0 0 1.5em;
+}
+
+/* line 397, ../../../sass/sass/components/ie.scss */
+.widget_calendar td,
+.widget_calendar th {
+  line-height: 2.9375;
+}
+
+/* line 402, ../../../sass/sass/components/ie.scss */
+.widget_calendar caption {
+  margin: 0 0 1.5em;
+}
+
+/* line 406, ../../../sass/sass/components/ie.scss */
+.widget_archive li,
+.widget_categories li,
+.widget_links li,
+.widget_meta li,
+.widget_nav_menu li,
+.widget_pages li,
+.widget_recent_comments li,
+.widget_recent_entries li {
+  padding: 0.7188em 0;
+}
+
+/* line 417, ../../../sass/sass/components/ie.scss */
+.widget_categories .children,
+.widget_nav_menu .sub-menu,
+.widget_pages .children {
+  margin: 0.7188em 0 0 1em;
+  padding-top: 0.7188em;
+}
+
+/* line 424, ../../../sass/sass/components/ie.scss */
+.widget_rss li {
+  margin-bottom: 1.5em;
+}
+
+/* line 428, ../../../sass/sass/components/ie.scss */
+.widget_rss .rss-date,
+.widget_rss cite {
+  font-size: 13px;
+  line-height: 1.8462;
+}
+
+/* line 434, ../../../sass/sass/components/ie.scss */
+.widget .wp-caption-text,
+.widget .gallery-caption {
+  line-height: 1.5;
+  padding: 0.5em 0;
+}
+
+/* line 440, ../../../sass/sass/components/ie.scss */
+.hentry,
+.page-header,
+.page-content {
+  margin: 0 7.6923%;
+}
+
+/* line 446, ../../../sass/sass/components/ie.scss */
+.hentry + .hentry,
+.page-header + .hentry,
+.page-header + .page-content {
+  margin-top: 7.6923%;
+}
+
+/* line 452, ../../../sass/sass/components/ie.scss */
+.post-thumbnail {
+  margin-bottom: 2.9474em;
+}
+
+/* line 456, ../../../sass/sass/components/ie.scss */
+.entry-header {
+  padding: 0 9.0909%;
+}
+
+/* line 460, ../../../sass/sass/components/ie.scss */
+.entry-title,
+.widecolumn h2 {
+  font-size: 39px;
+  line-height: 1.2308;
+  margin-bottom: 1.2308em;
+}
+
+/* line 467, ../../../sass/sass/components/ie.scss */
+.entry-content,
+.entry-summary {
+  padding: 0 9.0909% 9.0909%;
+}
+
+/* line 472, ../../../sass/sass/components/ie.scss */
+.entry-content h1,
+.entry-summary h1,
+.page-content h1,
+.comment-content h1 {
+  font-size: 39px;
+  line-height: 1.2308;
+  margin-top: 1.641em;
+  margin-bottom: 0.8205em;
+}
+
+/* line 482, ../../../sass/sass/components/ie.scss */
+.entry-content h2,
+.entry-summary h2,
+.page-content h2,
+.comment-content h2 {
+  font-size: 32px;
+  line-height: 1.25;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+/* line 492, ../../../sass/sass/components/ie.scss */
+.entry-content h3,
+.entry-summary h3,
+.page-content h3,
+.comment-content h3 {
+  font-size: 27px;
+  line-height: 1.1852;
+  margin-top: 2.3704em;
+  margin-bottom: 1.1852em;
+}
+
+/* line 502, ../../../sass/sass/components/ie.scss */
+.entry-content h4,
+.entry-summary h4,
+.page-content h4,
+.comment-content h4 {
+  font-size: 22px;
+  line-height: 1.4545;
+  margin-top: 2.9091em;
+  margin-bottom: 1.4545em;
+}
+
+/* line 512, ../../../sass/sass/components/ie.scss */
+.entry-content h5,
+.entry-content h6,
+.entry-summary h5,
+.entry-summary h6,
+.page-content h5,
+.page-content h6,
+.comment-content h5,
+.comment-content h6 {
+  font-size: 19px;
+  line-height: 1.2632;
+  margin-top: 3.3684em;
+  margin-bottom: 1.6842em;
+}
+
+/* line 526, ../../../sass/sass/components/ie.scss */
+.entry-content .more-link:after {
+  font-size: 24px;
+  top: 3px;
+}
+
+/* line 531, ../../../sass/sass/components/ie.scss */
+.author-info {
+  margin: 0 9.0909%;
+  padding: 9.0909% 0;
+}
+
+/* line 536, ../../../sass/sass/components/ie.scss */
+.author-info .avatar {
+  margin: 0 1.6842em 1.6842em 0;
+  width: 56px;
+  height: 56px;
+}
+
+/* line 542, ../../../sass/sass/components/ie.scss */
+.author-link:after {
+  font-size: 24px;
+  top: 0;
+}
+
+/* line 547, ../../../sass/sass/components/ie.scss */
+.entry-footer {
+  padding: 4.5454% 9.0909%;
+}
+
+/* line 551, ../../../sass/sass/components/ie.scss */
+.posted-on:before,
+.byline:before,
+.cat-links:before,
+.tags-links:before,
+.comments-link:before,
+.entry-format:before,
+.edit-link:before,
+.full-size-link:before {
+  top: 4px;
+}
+
+/* line 562, ../../../sass/sass/components/ie.scss */
+.updated {
+  display: none;
+}
+
+/* line 566, ../../../sass/sass/components/ie.scss */
+.updated.published {
+  display: inline;
+}
+
+/* line 570, ../../../sass/sass/components/ie.scss */
+.page-header {
+  border-color: inherit;
+  border-style: solid;
+  border-width: 0 0 0 7px;
+  padding: 3.8461% 7.6923%;
+}
+
+/* line 577, ../../../sass/sass/components/ie.scss */
+.page-title,
+.taxonomy-description {
+  margin-left: -7px;
+}
+
+/* line 582, ../../../sass/sass/components/ie.scss */
+.taxonomy-description {
+  padding-top: 0.4211em;
+}
+
+/* line 586, ../../../sass/sass/components/ie.scss */
+.page-title,
+.comments-title,
+.comment-reply-title,
+.post-navigation .post-title {
+  font-size: 27px;
+  line-height: 1.1852;
+}
+
+/* line 594, ../../../sass/sass/components/ie.scss */
+.page-content {
+  padding: 7.6923%;
+}
+
+/* line 598, ../../../sass/sass/components/ie.scss */
+.page-links {
+  margin-bottom: 1.4736em;
+}
+
+/* line 602, ../../../sass/sass/components/ie.scss */
+.page-links a,
+.page-links > span {
+  margin: 0 0.25em 0.25em 0;
+}
+
+/* line 607, ../../../sass/sass/components/ie.scss */
+.format-aside .entry-title,
+.format-image .entry-title,
+.format-video .entry-title,
+.format-quote .entry-title,
+.format-gallery .entry-title,
+.format-status .entry-title,
+.format-link .entry-title,
+.format-audio .entry-title,
+.format-chat .entry-title {
+  font-size: 22px;
+  line-height: 1.4545;
+  margin-bottom: 32px;
+}
+
+/* line 621, ../../../sass/sass/components/ie.scss */
+.format-link .entry-title a:after {
+  top: 0.125em;
+}
+
+/* line 625, ../../../sass/sass/components/ie.scss */
+.comments-title {
+  margin-bottom: 1.4545em;
+}
+
+/* line 629, ../../../sass/sass/components/ie.scss */
+.comment-list article,
+.comment-list .pingback,
+.comment-list .trackback {
+  padding: 1.6842em 0;
+}
+
+/* line 635, ../../../sass/sass/components/ie.scss */
+.comment-list + .comment-respond,
+.comment-navigation + .comment-respond {
+  padding-top: 1.6842em;
+}
+
+/* line 640, ../../../sass/sass/components/ie.scss */
+.comment-list .children > li {
+  padding-left: 1.4737em;
+}
+
+/* line 644, ../../../sass/sass/components/ie.scss */
+.comment-meta {
+  position: relative;
+}
+
+/* line 648, ../../../sass/sass/components/ie.scss */
+.comment-author {
+  margin-bottom: 0;
+  padding-left: 4.6315em;
+}
+
+/* line 653, ../../../sass/sass/components/ie.scss */
+.comment-author .avatar {
+  margin: 0;
+  position: absolute;
+  top: 3px;
+  left: 0;
+  width: 56px;
+  height: 56px;
+}
+
+/* line 662, ../../../sass/sass/components/ie.scss */
+.comment-metadata {
+  line-height: 2;
+  padding-left: 5.5em;
+}
+
+/* line 667, ../../../sass/sass/components/ie.scss */
+.comment-metadata .edit-link:before,
+.pingback .edit-link:before {
+  top: 8px;
+}
+
+/* line 672, ../../../sass/sass/components/ie.scss */
+.bypostauthor > article .fn:after {
+  top: 8px;
+  left: 6px;
+}
+
+/* line 677, ../../../sass/sass/components/ie.scss */
+.comment-content ul,
+.comment-content ol {
+  margin: 0 0 1.6842em 0;
+}
+
+/* line 682, ../../../sass/sass/components/ie.scss */
+.comment-content li > ul,
+.comment-content li > ol,
+.comment-content blockquote > ul,
+.comment-content blockquote > ol {
+  margin-left: 1.3333em;
+}
+
+/* line 689, ../../../sass/sass/components/ie.scss */
+.comment-list .reply a {
+  padding: 0.4375em 0.875em;
+}
+
+/* line 693, ../../../sass/sass/components/ie.scss */
+.comment-form,
+.no-comments {
+  padding-top: 1.6842em;
+}
+
+/* line 698, ../../../sass/sass/components/ie.scss */
+.comment-reply-title small a:before {
+  top: -1px;
+}
+
+/* line 702, ../../../sass/sass/components/ie.scss */
+.comment-list .reply {
+  margin-top: 0;
+}
+
+/* line 706, ../../../sass/sass/components/ie.scss */
+.site-footer {
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+  margin: 0 auto;
+  max-width: 806px;
+  padding: 0;
+}
+
+/* line 714, ../../../sass/sass/components/ie.scss */
+.site-info {
+  margin: 4.5454% 9.0909%;
+}
+
+/* line 718, ../../../sass/sass/components/ie.scss */
+.post-navigation {
+  border-top: 0;
+  margin: 7.6923% 7.6923% 0;
+}
+
+/* line 723, ../../../sass/sass/components/ie.scss */
+.post-navigation a {
+  padding: 4.5454% 9.0909%;
+}
+
+/* line 727, ../../../sass/sass/components/ie.scss */
+.pagination {
+  border-top: 0;
+  margin: 7.6923% 7.6923% 0;
+  padding: 0;
+}
+
+/* line 733, ../../../sass/sass/components/ie.scss */
+.pagination .page-numbers {
+  display: inline-block;
+}
+
+/* line 737, ../../../sass/sass/components/ie.scss */
+.pagination .meta-nav {
+  display: none;
+}
+
+/* line 741, ../../../sass/sass/components/ie.scss */
+.image-navigation {
+  padding: 0 9.0909%;
+}
+
+/* line 745, ../../../sass/sass/components/ie.scss */
+.comments-area {
+  border-top: 0;
+  margin: 7.6923% 7.6923% 0;
+}
+
+/* line 750, ../../../sass/sass/components/ie.scss */
+embed,
+iframe,
+object,
+video {
+  margin-bottom: 1.6842em;
+}
+
+/* line 757, ../../../sass/sass/components/ie.scss */
+.wp-audio-shortcode,
+.wp-video,
+.wp-playlist.wp-audio-playlist {
+  font-size: 19px;
+  margin-bottom: 1.6842em;
+}
+
+/* line 764, ../../../sass/sass/components/ie.scss */
+.wp-caption,
+.gallery {
+  margin-bottom: 1.6842em;
+}
+
+/* line 769, ../../../sass/sass/components/ie.scss */
+.wp-caption-text,
+.gallery-caption {
+  padding: 0.5em 0;
+}
+
+/* line 774, ../../../sass/sass/components/ie.scss */
+.widecolumn {
+  margin: 7.6923%;
+}
+
+/* line 778, ../../../sass/sass/components/ie.scss */
+.widecolumn .mu_alert {
+  margin-bottom: 1.6842em;
+}
+
+/* line 782, ../../../sass/sass/components/ie.scss */
+.widecolumn p {
+  margin: 1.6842em 0;
+}
+
+/* line 786, ../../../sass/sass/components/ie.scss */
+.widecolumn p + h2 {
+  margin-top: 1.641em;
+}
+
+/* line 790, ../../../sass/sass/components/ie.scss */
+.widecolumn #key,
+.widecolumn .mu_register #blog_title,
+.widecolumn .mu_register #user_email,
+.widecolumn .mu_register #blogname,
+.widecolumn .mu_register #user_name {
+  font-size: 19px;
+}
+
+/* line 798, ../../../sass/sass/components/ie.scss */
+.widecolumn .mu_register #blog_title,
+.widecolumn .mu_register #user_email,
+.widecolumn .mu_register #user_name {
+  margin: 0 0 0.421em;
+}
+
+/**
+ * RTL
+ */
+/* line 809, ../../../sass/sass/components/ie.scss */
+.rtl ul,
+.rtl ol {
+  margin-right: 0;
+  margin-left: auto;
+}
+
+/* line 815, ../../../sass/sass/components/ie.scss */
+.rtl li > ul,
+.rtl li > ol,
+.rtl blockquote > ul,
+.rtl blockquote > ol {
+  margin-right: 1.3333em;
+  margin-left: auto;
+}
+
+/* line 823, ../../../sass/sass/components/ie.scss */
+.rtl blockquote {
+  border-width: 0 4px 0 0;
+  margin-right: -1.0909em;
+  margin-left: auto;
+  padding-right: 0.9091em;
+  padding-left: 0;
+}
+
+/* line 831, ../../../sass/sass/components/ie.scss */
+.rtl blockquote > blockquote {
+  margin-right: 0;
+  margin-left: auto;
+}
+
+/* line 836, ../../../sass/sass/components/ie.scss */
+.rtl .main-navigation ul ul {
+  margin-right: 1em;
+  margin-left: auto;
+}
+
+/* line 841, ../../../sass/sass/components/ie.scss */
+.rtl .main-navigation .menu-item-has-children > a {
+  padding-right: 0;
+  padding-left: 48px;
+}
+
+/* line 846, ../../../sass/sass/components/ie.scss */
+.rtl .secondary-toggle {
+  right: auto;
+  left: 7.6897%;
+}
+
+/* line 851, ../../../sass/sass/components/ie.scss */
+.rtl .image-navigation .nav-previous,
+.rtl .comment-navigation .nav-previous {
+  float: right;
+}
+
+/* line 856, ../../../sass/sass/components/ie.scss */
+.rtl .image-navigation .nav-next,
+.rtl .comment-navigation .nav-next {
+  float: left;
+  text-align: left;
+}
+
+/* line 862, ../../../sass/sass/components/ie.scss */
+.rtl blockquote.alignright,
+.rtl .wp-caption.alignright
+.rtl img.alignright {
+  margin: 0.4211em 0 1.6842em 1.6842em;
+}
+
+/* line 868, ../../../sass/sass/components/ie.scss */
+.rtl blockquote.alignleft,
+.rtl .wp-caption.alignleft,
+.rtl img.alignleft {
+  margin: 0.4211em 1.6842em 1.6842em 0;
+}
+
+/* line 874, ../../../sass/sass/components/ie.scss */
+.rtl .widget blockquote {
+  margin-right: -1.2632em;
+  margin-left: auto;
+  padding-right: 1.0526em;
+  padding-left: 0;
+}
+
+/* line 881, ../../../sass/sass/components/ie.scss */
+.rtl .widget blockquote > blockquote {
+  margin-right: 0;
+  margin-left: auto;
+}
+
+/* line 886, ../../../sass/sass/components/ie.scss */
+.rtl .widget_categories .children,
+.rtl .widget_nav_menu .sub-menu,
+.rtl .widget_pages .children {
+  margin: 0.7188em 1em 0 0;
+}
+
+/* line 892, ../../../sass/sass/components/ie.scss */
+.rtl .page-links a,
+.rtl .page-links > span {
+  margin: 0 0 0.25em 0.25em;
+}
+
+/* line 897, ../../../sass/sass/components/ie.scss */
+.rtl .author-info .avatar {
+  margin: 0 0 1.6842em 1.6842em;
+}
+
+/* line 901, ../../../sass/sass/components/ie.scss */
+.rtl .page-header {
+  border-width: 0 7px 0 0;
+}
+
+/* line 905, ../../../sass/sass/components/ie.scss */
+.rtl .page-title,
+.rtl .taxonomy-description {
+  margin-right: -7px;
+  margin-left: auto;
+}
+
+/* line 911, ../../../sass/sass/components/ie.scss */
+.rtl .comment-list .children > li {
+  padding-right: 1.4737em;
+  padding-left: 0;
+}
+
+/* line 916, ../../../sass/sass/components/ie.scss */
+.rtl .comment-author {
+  padding-right: 4.6315em;
+  padding-left: 0;
+}
+
+/* line 921, ../../../sass/sass/components/ie.scss */
+.rtl .comment-author .avatar {
+  right: 0;
+  left: auto;
+}
+
+/* line 926, ../../../sass/sass/components/ie.scss */
+.rtl .comment-content ul,
+.rtl .comment-content ol {
+  margin-right: 0;
+  margin-left: auto;
+}
+
+/* line 932, ../../../sass/sass/components/ie.scss */
+.rtl .comment-content li > ul,
+.rtl .comment-content li > ol,
+.rtl .comment-content blockquote > ul,
+.rtl .comment-content blockquote > ol {
+  margin-right: 1.3333em;
+  margin-left: auto;
+}
+
+/* line 940, ../../../sass/sass/components/ie.scss */
+.rtl .comment-metadata {
+  padding-right: 5.5em;
+  padding-left: 0;
+}
+
+/* line 945, ../../../sass/sass/components/ie.scss */
+.rtl .bypostauthor > article .fn:after {
+  right: 6px;
+  left: auto;
+}

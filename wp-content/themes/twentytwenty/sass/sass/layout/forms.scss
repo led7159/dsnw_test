@@ -1,0 +1,55 @@
+/* ========================================================================= */
+/* reset */
+/* ========================================================================= */
+a {
+	color:#333;
+	}
+
+ a:focus {
+  outline: 0;
+  text-decoration: none;
+}
+a:hover,
+a:active {
+  /* Improves readability when focused and also mouse hovered in all browsers people.opera.com/patrickl/experiments/keyboard/test */
+  outline: 0;
+  color: #333;
+  text-decoration: none;
+}
+a img {
+  border: 0;
+}
+
+/* ========================================================================= */
+/* layout */
+/* ========================================================================= */
+
+/*@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);*/
+
+html > body {
+	/*background-color: #989898;*/
+	background-color: white;
+	font-family: 'Nanum Barun Gothic', sans-serif;
+	font-size: 14px;
+	min-width: 1120px;
+	line-height: normal;
+	width: 100%;
+	overflow-y: auto;
+}
+
+body {
+	outline:0;
+}
+
+/* ========================================================================= */
+/* container form architecture */
+/* ========================================================================= */
+
+.container { width: 1170px !important; } 
+
+.content {
+	margin:0 auto;
+	width: 1180px;
+	padding-right:22px;
+	/*overflow: hidden;*/
+}

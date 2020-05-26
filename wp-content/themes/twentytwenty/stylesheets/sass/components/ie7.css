@@ -1,0 +1,106 @@
+/*
+Theme Name: Twenty Fifteen
+Description: IE7 specific style.
+*/
+/* line 6, ../../../sass/sass/components/ie7.scss */
+.screen-reader-text {
+  clip: rect(1px 1px 1px 1px);
+}
+
+/* line 10, ../../../sass/sass/components/ie7.scss */
+.secondary-toggle {
+  color: #333;
+  font-size: 16px;
+  line-height: 60px;
+  width: auto;
+}
+
+/* line 17, ../../../sass/sass/components/ie7.scss */
+.pagination .prev,
+.pagination .next {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 64px;
+  padding: 0 19px;
+  width: auto;
+}
+
+/* line 26, ../../../sass/sass/components/ie7.scss */
+.image-navigation,
+.comment-navigation {
+  width: 662px;
+}
+
+/* line 31, ../../../sass/sass/components/ie7.scss */
+.post-navigation {
+  text-align: left;
+}
+
+/* line 35, ../../../sass/sass/components/ie7.scss */
+.site-main {
+  text-align: center;
+}
+
+/* line 39, ../../../sass/sass/components/ie7.scss */
+.hentry {
+  margin-bottom: 7.6923%;
+  text-align: left;
+  width: 808px;
+}
+
+/* line 45, ../../../sass/sass/components/ie7.scss */
+.page-header {
+  margin-bottom: 7.6923%;
+  text-align: left;
+}
+
+/* line 50, ../../../sass/sass/components/ie7.scss */
+.comments-area {
+  text-align: left;
+}
+
+/* line 54, ../../../sass/sass/components/ie7.scss */
+.comment-list,
+.comment-navigation {
+  margin-bottom: 1.6471em;
+}
+
+/* line 59, ../../../sass/sass/components/ie7.scss */
+.gallery-columns-2 .gallery-item {
+  max-width: 48%;
+}
+
+/* line 63, ../../../sass/sass/components/ie7.scss */
+.gallery-columns-3 .gallery-item {
+  max-width: 31%;
+}
+
+/* line 67, ../../../sass/sass/components/ie7.scss */
+.gallery-columns-4 .gallery-item {
+  max-width: 22%;
+}
+
+/* line 71, ../../../sass/sass/components/ie7.scss */
+.gallery-columns-5 .gallery-item {
+  max-width: 17%;
+}
+
+/* line 75, ../../../sass/sass/components/ie7.scss */
+.gallery-columns-6 .gallery-item {
+  max-width: 13.5%;
+}
+
+/* line 79, ../../../sass/sass/components/ie7.scss */
+.gallery-columns-7 .gallery-item {
+  max-width: 11%;
+}
+
+/* line 83, ../../../sass/sass/components/ie7.scss */
+.gallery-columns-8 .gallery-item {
+  max-width: 9.5%;
+}
+
+/* line 87, ../../../sass/sass/components/ie7.scss */
+.gallery-columns-9 .gallery-item {
+  max-width: 8%;
+}

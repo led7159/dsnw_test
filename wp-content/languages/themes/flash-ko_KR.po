@@ -1,0 +1,1280 @@
+# Translation of Themes - Flash in Korean
+# This file is distributed under the same license as the Themes - Flash package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-06-09 11:43:36+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ko_KR\n"
+"Project-Id-Version: Themes - Flash\n"
+
+#. Description of the theme
+msgid "Flash is free responsive multipurpose WordPress theme – truly a versatile theme perfect for any type of website you want. Like never before, it provides multiple pre-built demos which can be imported in seconds using ThemeGrill Demo Importer Plugin. The theme fully integrates with Flash Toolkit and SiteOrigin’s Page Builder Plugin that makes theme more user-friendly and easy. Additionally, theme features multiple blog layouts, WooCommerce support, multiple header styles, multiple color options etc."
+msgstr "Flash는 무료 반응형 다용도 워드프레스 테마입니다. 원하시는 어떤 타입의 웹사이트에도 적합한 정말로 다용도의 테마입니다. 이전과 다르게 ThemeGrill 테모 가져오기 플러그인을 이용해 몇 초만에 여러 가지 데모를 갸져와 설치할 수 있습니다. Flash Toolkit과 테마를 더 사용자 친화적이고 쉽게 다룰 수 있는 SiteOrigin의 페이지 빌더 플러그인과 완전히 결합됩니다. 추가적으로 다수의 블로그 레이아웃, 우커머스 지원, 다수의 헤더 스타일, 다수의 색상 옵션 등의 기능이 있습니다."
+
+#. Theme Name of the theme
+#: inc/class-flash-admin.php:161
+msgid "Flash"
+msgstr "Flash"
+
+#: inc/demo-config.php:77
+msgid "Flash Pro Wedding"
+msgstr "Flash Pro 웨딩"
+
+#: inc/demo-config.php:72
+msgid "Flash Pro Store"
+msgstr "Flash Pro 상점"
+
+#: inc/demo-config.php:67
+msgid "Flash Pro Health"
+msgstr "Flash Pro 헬스"
+
+#: inc/demo-config.php:62
+msgid "Flash Pro Gym"
+msgstr "Flash Pro 헬스클럽"
+
+#: inc/demo-config.php:57
+msgid "Flash Pro Education"
+msgstr "Flash Pro 교육"
+
+#: inc/demo-config.php:52
+msgid "Flash Pro Church"
+msgstr "Flash Pro 교회"
+
+#: inc/demo-config.php:47
+msgid "Flash Pro Default"
+msgstr "Flash Pro 기본"
+
+#: inc/demo-config.php:43
+msgid "Flash Construction V2"
+msgstr "Flash 건설 V2"
+
+#: inc/demo-config.php:39
+msgid "Flash Food V2"
+msgstr "Flash 음식 V2"
+
+#: inc/kirki/controls/php/class-kirki-control-base.php:137
+msgid "Google Fonts"
+msgstr "구글 폰트"
+
+#: inc/extras.php:322
+msgid "Page "
+msgstr "페이지 "
+
+#. Template Name of the theme
+msgid "Pagebuilder"
+msgstr "페이지빌더"
+
+#: template-parts/content.php:67 template-parts/content-page.php:25
+msgid "Pages:"
+msgstr "페이지:"
+
+#: template-parts/content-none.php:31
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "찾고 있는 것을 찾을 수 없는 것 같습니다. 검색이 도움될 수도 있습니다."
+
+#: template-parts/content-none.php:25
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "죄송하지만 검색어와 일치하는 것이 없습니다. 다른 검색어로 다시 시도해보세요."
+
+#: template-parts/content-none.php:21
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "첫번째 글을 발행할 준비가 됐나요? <a href=\"%1$s\">여기서 시작하세요</a>."
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "찾을 수 없습니다."
+
+#: searchform.php:15
+msgctxt "submit button"
+msgid "Search"
+msgstr "검색"
+
+#: searchform.php:13
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "검색 &hellip;"
+
+#: searchform.php:12
+msgctxt "label"
+msgid "Search for:"
+msgstr "검색:"
+
+#. translators: %s: Name of current post
+#: template-parts/content-page.php:37 inc/template-tags.php:77
+msgid "Edit %s"
+msgstr "편집 %s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:59 inc/template-tags.php:67
+msgid ", "
+msgstr ", "
+
+#. translators: %s: post title
+#: inc/template-tags.php:43
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "<span class=\"screen-reader-text\">%s</span>에 댓글 남기기"
+
+#: inc/meta-boxes.php:57
+msgid "Header Transparency"
+msgstr "헤더 투명도"
+
+#: inc/meta-boxes.php:55 inc/meta-boxes.php:56
+msgid "Select Layout"
+msgstr "레이아웃 선택"
+
+#: inc/meta-boxes.php:47
+msgid "Non Transparent Header"
+msgstr "투명 헤더 아님"
+
+#: inc/meta-boxes.php:42
+msgid "Transparent Header"
+msgstr "투명 헤더"
+
+#: inc/meta-boxes.php:34
+msgid "Full Width Center"
+msgstr "전체 폭 중앙"
+
+#. Template Name of the theme
+#: inc/meta-boxes.php:29
+msgid "Full Width"
+msgstr "전체폭"
+
+#: inc/meta-boxes.php:14
+msgid "Default Layout"
+msgstr "기본 레이아웃"
+
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:363
+msgid "Hex Value"
+msgstr "16진수 값"
+
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:123
+msgid "Select a Page"
+msgstr "페이지 선택"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:186
+#: inc/kirki/controls/php/class-kirki-control-typography.php:202
+msgid "Initial"
+msgstr "Initial"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:185
+msgid "Lowercase"
+msgstr "소문자"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:184
+msgid "Uppercase"
+msgstr "대문자"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:183
+msgid "Capitalize"
+msgstr "전체 대문자"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:182
+#: inc/kirki/controls/php/class-kirki-control-typography.php:198
+msgid "None"
+msgstr "아니오"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:179
+msgid "Text Transform"
+msgstr "Text Transform"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:140
+msgid "Text Align"
+msgstr "텍스트 정렬"
+
+#. translators: %s represents the number of rows we're limiting the repeater to
+#. allow.
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:229
+msgid "Limit: %s rows"
+msgstr "제한: %s 행"
+
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:77
+msgid "row"
+msgstr "행"
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:138
+#: inc/kirki/controls/php/class-kirki-control-dimension.php:39
+msgid "Invalid Value"
+msgstr "유효하지 않은 값."
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:231
+msgid "Ultra-Bold 900 Italic"
+msgstr "Ultra-Bold 900 Italic"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:229
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:230
+msgid "Ultra-Bold 900"
+msgstr "Ultra-Bold 900"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:228
+msgid "Extra-Bold 800 Italic"
+msgstr "Extra-Bold 800 Italic"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:226
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:227
+msgid "Extra-Bold 800"
+msgstr "Extra-Bold 800"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:225
+msgid "Bold 700 Italic"
+msgstr "Bold 700 Italic"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:224
+msgid "Bold 700"
+msgstr "Bold 700"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:223
+msgid "Semi-Bold 600 Italic"
+msgstr "Semi-Bold 600 Italic"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:221
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:222
+msgid "Semi-Bold 600"
+msgstr "Semi-Bold 600"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:220
+msgid "Medium 500 Italic"
+msgstr "Medium 500 Italic"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:219
+msgid "Medium 500"
+msgstr "Medium 500"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:218
+msgid "Normal 400 Italic"
+msgstr "Normal 400 Italic"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:216
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:217
+msgid "Normal 400"
+msgstr "Normal 400"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:215
+msgid "Book 300 Italic"
+msgstr "Book 300 Italic"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:214
+msgid "Book 300"
+msgstr "Book 300"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:213
+msgid "Light 200 Italic"
+msgstr "Light 200 Italic"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:212
+msgid "Light 200"
+msgstr "Light 200"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:211
+msgid "Ultra-Light 100 Italic"
+msgstr "Ultra-Light 100 Italic"
+
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:209
+#: inc/kirki/modules/webfonts/class-kirki-fonts.php:210
+msgid "Ultra-Light 100"
+msgstr "Ultra-Light 100"
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:135
+msgid "Spacing"
+msgstr "스페이싱"
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:137
+msgid "Height"
+msgstr "높이"
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:134
+msgid "Size"
+msgstr "사이즈"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:93
+msgid "Variant"
+msgstr "Variant"
+
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:388
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:445
+#: inc/kirki/controls/php/class-kirki-control-background.php:62
+#: inc/kirki/controls/php/class-kirki-control-base.php:133
+#: inc/kirki/controls/views/image.php:37
+#: inc/kirki/field/class-kirki-field-image.php:50
+msgid "Remove"
+msgstr "제거"
+
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:410
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:415
+#: inc/kirki/controls/php/class-kirki-control-background.php:59
+#: inc/kirki/controls/php/class-kirki-control-base.php:132
+msgid "No File Selected"
+msgstr "파일이 선택되지 않았습니다"
+
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:421
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:423
+msgid "Change File"
+msgstr "파일 변경하기"
+
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:421
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:425
+msgid "Add File"
+msgstr "파일 추가하기"
+
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:378
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:383
+msgid "No Image Selected"
+msgstr "이미지가 선택되지 않았습니다"
+
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:389
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:391
+msgid "Change Image"
+msgstr "이미지 변경하기"
+
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:389
+#: inc/kirki/controls/php/class-kirki-control-repeater.php:393
+msgid "Add Image"
+msgstr "이미지 추가"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:227
+msgid "Color"
+msgstr "색상"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:169
+msgid "Justify"
+msgstr "전체 정렬"
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:133
+#: inc/kirki/controls/php/class-kirki-control-typography.php:157
+msgid "Center"
+msgstr "중앙"
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:132
+#: inc/kirki/controls/php/class-kirki-control-typography.php:163
+#: inc/kirki/field/class-kirki-field-spacing.php:35
+msgid "Right"
+msgstr "오른쪽"
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:131
+#: inc/kirki/controls/php/class-kirki-control-typography.php:151
+#: inc/kirki/field/class-kirki-field-spacing.php:34
+msgid "Left"
+msgstr "왼쪽"
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:130
+#: inc/kirki/field/class-kirki-field-spacing.php:33
+msgid "Bottom"
+msgstr "하단"
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:129
+#: inc/kirki/field/class-kirki-field-spacing.php:32
+msgid "Top"
+msgstr "상단"
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:127
+#: inc/kirki/controls/php/class-kirki-control-typography.php:124
+msgid "Letter Spacing"
+msgstr "글자 스페이싱"
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:126
+msgid "Font Style"
+msgstr "폰트 스타일"
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:125
+#: inc/kirki/controls/php/class-kirki-control-typography.php:116
+msgid "Line Height"
+msgstr "줄 간격"
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:124
+msgid "Font Weight"
+msgstr "Font Weight"
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:123
+#: inc/kirki/controls/php/class-kirki-control-typography.php:108
+msgid "Font Size"
+msgstr "폰트 사이즈"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:82
+msgid "Font Family"
+msgstr "폰트 패밀리"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:81
+msgid "Background Position"
+msgstr "배경 포지션"
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:122
+#: inc/kirki/controls/php/class-kirki-control-background.php:91
+msgid "Center Bottom"
+msgstr "중앙 하단"
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:121
+#: inc/kirki/controls/php/class-kirki-control-background.php:90
+msgid "Center Center"
+msgstr "중앙 중앙"
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:120
+#: inc/kirki/controls/php/class-kirki-control-background.php:89
+msgid "Center Top"
+msgstr "중앙 상단"
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:119
+#: inc/kirki/controls/php/class-kirki-control-background.php:88
+msgid "Right Bottom"
+msgstr "우측 하단"
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:118
+#: inc/kirki/controls/php/class-kirki-control-background.php:87
+msgid "Right Center"
+msgstr "우측 중앙"
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:117
+#: inc/kirki/controls/php/class-kirki-control-background.php:86
+msgid "Right Top"
+msgstr "우측 상단"
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:116
+#: inc/kirki/controls/php/class-kirki-control-background.php:85
+msgid "Left Bottom"
+msgstr "좌측 하단"
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:115
+#: inc/kirki/controls/php/class-kirki-control-background.php:84
+msgid "Left Center"
+msgstr "좌측 중앙"
+
+#: inc/kirki/controls/php/class-kirki-control-dimensions.php:114
+#: inc/kirki/controls/php/class-kirki-control-background.php:83
+msgid "Left Top"
+msgstr "좌측 상단"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:113
+msgid "Background Attachment"
+msgstr "배경 첨부"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:116
+msgid "Scroll"
+msgstr "스크롤"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:119
+msgid "Fixed"
+msgstr "고정"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:97
+msgid "Background Size"
+msgstr "배경 크기"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:103
+msgid "Contain"
+msgstr "Contain"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:100
+msgid "Cover"
+msgstr "Cover"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:70
+msgid "Background Repeat"
+msgstr "배경 반복"
+
+#: inc/kirki/controls/php/class-kirki-control-typography.php:145
+#: inc/kirki/controls/php/class-kirki-control-typography.php:187
+#: inc/kirki/controls/php/class-kirki-control-typography.php:203
+msgid "Inherit"
+msgstr "Inherit"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:75
+msgid "Repeat Vertically"
+msgstr "세로 반복"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:74
+msgid "Repeat Horizontally"
+msgstr "가로 반복"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:73
+msgid "Repeat All"
+msgstr "가로세로 반복"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:72
+msgid "No Repeat"
+msgstr "반복 없음"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:54
+msgid "Background Image"
+msgstr "배경 이미지"
+
+#: inc/kirki/controls/php/class-kirki-control-background.php:48
+msgid "Background Color"
+msgstr "배경 색상"
+
+#: inc/extras.php:356
+msgid "Search Results for: %s"
+msgstr "결색 결과: %s"
+
+#: inc/extras.php:353
+msgid "Page NOT Found"
+msgstr "페이지를 찾을 수 없습니다"
+
+#: inc/extras.php:332
+msgid "404 Error"
+msgstr "404 에러"
+
+#: inc/extras.php:327
+msgid "Search results for: "
+msgstr "검색 결과: "
+
+#: inc/extras.php:291
+msgid "jS"
+msgstr "jS"
+
+#: inc/extras.php:288 inc/extras.php:291 inc/extras.php:301
+msgid "M"
+msgstr "M"
+
+#: inc/extras.php:285 inc/extras.php:288 inc/extras.php:298 inc/extras.php:306
+msgid "Y"
+msgstr "Y"
+
+#: inc/extras.php:140
+msgid "Home"
+msgstr "홈"
+
+#: inc/extras.php:121
+msgid "WordPress"
+msgstr "워드프레스"
+
+#: inc/extras.php:121
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"
+
+#: inc/extras.php:121
+msgid "Proudly powered by %s"
+msgstr "Proudly powered by %s"
+
+#: inc/extras.php:120
+msgid "Theme: %1$s by %2$s."
+msgstr "테마: %1$s 제작자 %2$s."
+
+#: inc/extras.php:118
+msgid "Copyright %1$s %2$s"
+msgstr "Copyright %1$s %2$s"
+
+#: inc/demo-config.php:35
+msgid "Flash Construction"
+msgstr "Flash 건설"
+
+#: inc/demo-config.php:31
+msgid "Flash Food"
+msgstr "Flash 음식"
+
+#: inc/demo-config.php:27
+msgid "Flash OnePage"
+msgstr "Flash 원페이지"
+
+#: inc/demo-config.php:23
+msgid "Flash Default"
+msgstr "Flash 기본"
+
+#: inc/customizer.php:771
+msgid "Yellow"
+msgstr "노랑"
+
+#: inc/customizer.php:762
+msgid "Red"
+msgstr "빨강"
+
+#: inc/customizer.php:753
+msgid "Gray"
+msgstr "회색"
+
+#: inc/customizer.php:744
+msgid "Dark"
+msgstr "어두운"
+
+#: inc/kirki/controls/php/class-kirki-control-base.php:134
+#: inc/kirki/controls/views/image.php:36
+#: inc/kirki/field/class-kirki-field-image.php:49 inc/customizer.php:735
+msgid "Default"
+msgstr "기본"
+
+#: inc/customizer.php:525
+msgid "Google Font Settings"
+msgstr "구글 폰트 설정"
+
+#: inc/customizer.php:673
+msgid "Secondary Text Color"
+msgstr "보조 텍스트 색상"
+
+#: inc/customizer.php:661
+msgid "Main Text Color"
+msgstr "메인 텍스트 색상"
+
+#: inc/customizer.php:649
+msgid "Link Color"
+msgstr "링크 색상"
+
+#: inc/customizer.php:631
+msgid "Base Color Scheme"
+msgstr "기본 색상 구조"
+
+#: inc/customizer.php:511
+msgid "Custom CSS"
+msgstr "사용자 정의 CSS"
+
+#: inc/customizer.php:500
+msgid "Advanced Settings"
+msgstr "고급 설정"
+
+#: inc/customizer.php:485
+msgid "Footer Widget Area"
+msgstr "푸터 위젯 영역"
+
+#: inc/customizer.php:475
+msgid "Footer Settings"
+msgstr "푸터 설정"
+
+#: inc/customizer.php:460
+msgid "Page Layout"
+msgstr "페이지 레이아웃"
+
+#: inc/customizer.php:450
+msgid "Page Settings"
+msgstr "페이지 설정"
+
+#: inc/customizer.php:442
+msgid "Remove next/previous link from post"
+msgstr "글에서 다음/이전 링크를 제거"
+
+#: inc/customizer.php:432
+msgid "Remove Author Bio from post"
+msgstr "글에서 글쓴이 소개 제거"
+
+#: inc/customizer.php:387
+msgid "Single Post Layout"
+msgstr "단일 글 레이아웃"
+
+#: inc/customizer.php:376
+msgid "Post Settings"
+msgstr "글 설정"
+
+#: inc/customizer.php:368
+msgid "Remove tag from post meta"
+msgstr "글 메타정보에서 태그를 제거"
+
+#: inc/customizer.php:358
+msgid "Remove category from post meta"
+msgstr "글 메타정보에서 카테고리를 제거"
+
+#: inc/customizer.php:348
+msgid "Remove comment count from post meta"
+msgstr "글 메타정보에서 댓글 카운트를 제거"
+
+#: inc/customizer.php:338
+msgid "Remove author from post meta"
+msgstr "글 메타정보에서 글쓴이를 제거"
+
+#: inc/customizer.php:328
+msgid "Remove date from post meta"
+msgstr "글 메타정보에서 날짜를 제거"
+
+#: inc/customizer.php:311
+msgid "Archive Page Layout"
+msgstr "글보관함 페이지 레이아웃"
+
+#: inc/customizer.php:295
+msgid "Blog Style"
+msgstr "블로그 스타일"
+
+#: inc/customizer.php:285
+msgid "Archive Page Settings"
+msgstr "글보관함 페이지 설정"
+
+#: inc/customizer.php:277
+msgid "Page Header Background"
+msgstr "페이지 헤더 배경"
+
+#: inc/customizer.php:267
+msgid "Remove breadcrumbs from page header"
+msgstr "페이지 헤더에서 브레드크럼을 제거"
+
+#: inc/customizer.php:257
+msgid "Page Header Settings"
+msgstr "페이지 헤더 설정"
+
+#: inc/customizer.php:249
+msgid "Sticky Header"
+msgstr "고정 헤더"
+
+#: inc/customizer.php:238
+msgid "Remove Header Cart Icon"
+msgstr "헤더 장바구니 아이콘 제거"
+
+#: inc/customizer.php:228
+msgid "Remove Header Search Box"
+msgstr "헤더 검색 박스 제거"
+
+#: inc/customizer.php:212
+msgid "Logo and Menu Position"
+msgstr "로고와 메뉴 위치"
+
+#: inc/customizer.php:202
+msgid "Header Settings"
+msgstr "헤더 설정"
+
+#: inc/customizer.php:180
+msgid "Top Header Text Content"
+msgstr "상단 헤더 텍스트 콘텐츠"
+
+#: inc/customizer.php:157
+msgid "Top Header Right Content"
+msgstr "상단 헤더 우측 콘텐츠"
+
+#: inc/customizer.php:142 inc/customizer.php:165
+msgid "Disable"
+msgstr "비활성"
+
+#: inc/customizer.php:141 inc/customizer.php:164
+msgid "Top Header Text"
+msgstr "상단 헤더 텍스트"
+
+#: inc/customizer.php:140 inc/customizer.php:163
+msgid "Social Menu"
+msgstr "소셜 메뉴"
+
+#: inc/customizer.php:134
+msgid "Top Header Left Content"
+msgstr "상단 헤더 좌측 콘텐츠"
+
+#: inc/customizer.php:124
+msgid "Enable Top Header"
+msgstr "상단 헤더 활성화"
+
+#: inc/customizer.php:114
+msgid "Top Header Settings"
+msgstr "상단 헤더 설정"
+
+#: inc/customizer.php:106
+msgid "Disable Back to Top Button?"
+msgstr "상단으로 가기 버튼을 비활성화?"
+
+#: inc/customizer.php:96
+msgid "Disable Preloader?"
+msgstr "프리로더 비활성화?"
+
+#: inc/customizer.php:88
+msgid "Boxed Layout"
+msgstr "박스 레이아웃"
+
+#: inc/customizer.php:87
+msgid "Wide Layout"
+msgstr "와이드 레이아웃"
+
+#: inc/customizer.php:81
+msgid "Site Layout"
+msgstr "사이트 레이아웃"
+
+#: inc/customizer.php:71
+msgid "General Settings"
+msgstr "일반 설정"
+
+#: inc/customizer.php:66
+msgid "Flash Theme Options"
+msgstr "Flash 테마 옵션"
+
+#: inc/customizer.php:30
+msgid "Transparent Logo"
+msgstr "투명 로고"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/class-tgm-plugin-activation.php:3520
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "플러그인 %1$s 설치중 (%2$d/%3$d)"
+
+#: inc/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr "모든 설치 완료됨."
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:3517
+msgid "%1$s installed successfully."
+msgstr "%1$s 설치 성공."
+
+#: inc/class-tgm-plugin-activation.php:3515
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "설치 과정이 시작됐습니다. 이 과정은 일부 호스팅에서 시간이 걸릴 수도 있습니다. 기다려 주세요."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/class-tgm-plugin-activation.php:3512
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "플러그인 %1$s 설치 및 활성화중 (%2$d/%3$d)"
+
+#: inc/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr "모든 설치 및 활성화 완료됨."
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:3509
+#: inc/class-tgm-plugin-activation.php:3517
+msgid "Hide Details"
+msgstr "상세 감추기"
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:3509
+#: inc/class-tgm-plugin-activation.php:3517
+msgid "Show Details"
+msgstr "상세 보이기"
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:3509
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s 설치 및 활성화 성공."
+
+#: inc/class-tgm-plugin-activation.php:3507
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "설치 및 활성화 과정이 시작됐습니다. 이 과정은 일부 호스팅에서 시간이 걸릴 수도 있습니다. 기다려 주세요."
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:3503
+msgid "The installation of %1$s failed."
+msgstr "%1$s 설치 실패."
+
+#. translators: 1: plugin name, 2: error message.
+#: inc/class-tgm-plugin-activation.php:3501
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "%1$s 설치중 에러 발생: <strong>%2$s</strong>."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/class-tgm-plugin-activation.php:3498
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "플러그인 %1$s 업데이트중 (%2$d/%3$d)"
+
+#: inc/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr "플러그인 활성화 실패."
+
+#: inc/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr "현재 활성화 가능한 플러그인이 없습니다."
+
+#: inc/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "활성화할 플러그인이 선택되지 않았습니다. 추가 작업은 없습니다."
+
+#: inc/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr "현재는 업데이트 가능한 플러그인이 없습니다."
+
+#: inc/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr "현재는 설치할 플러그인이 가능하지 않습니다."
+
+#: inc/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "업데이트 할 플러그인이 선택되지 않았습니다. 추가 작업은 없습니다."
+
+#: inc/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "설치할 플러그인이 선택되지 않았습니다. 추가 작업은 없습니다."
+
+#: inc/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr "활성화"
+
+#: inc/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr "업데이트"
+
+#: inc/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr "설치"
+
+#: inc/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr "플러그인 제작자의 업그레이드 메시지:"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/class-tgm-plugin-activation.php:2614
+msgid "Activate %2$s"
+msgstr "%2$s 활성화"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/class-tgm-plugin-activation.php:2608
+msgid "Update %2$s"
+msgstr "%2$s 업데이트"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/class-tgm-plugin-activation.php:2603
+msgid "Install %2$s"
+msgstr "%2$s 설치"
+
+#: inc/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr "상태"
+
+#: inc/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr "버전"
+
+#: inc/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr "타입"
+
+#: inc/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr "소스"
+
+#: inc/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr "플러그인"
+
+#: inc/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr "설치, 업데이트, 활성화 할 플러그인 없음."
+
+#: inc/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr "가능한 버전:"
+
+#: inc/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr "최소 필수 버전:"
+
+#: inc/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr "설치된 버전:"
+
+#: inc/class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "알 수 없음"
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2400
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "활성화 <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2396
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "가능한 업데이트 <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2392
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "설치 <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2388
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "모두 <span class=\"count\">(%s)</span>"
+
+#. translators: 1: install status, 2: update status
+#: inc/class-tgm-plugin-activation.php:2342
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#: inc/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr "업데이트 권장됨"
+
+#: inc/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr "업데이트 필요"
+
+#: inc/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr "필수 업데이트가 가능하지 않음"
+
+#: inc/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr "활성"
+
+#: inc/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr "설치됐지만 비활성"
+
+#: inc/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr "설치되지 않음"
+
+#: inc/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr "미리 패키지됨"
+
+#: inc/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr "외부 소스"
+
+#: inc/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr "워드프레스 저장소"
+
+#: inc/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr "추천됨"
+
+#: inc/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr "필수"
+
+#. translators: %s: version number
+#: inc/class-tgm-plugin-activation.php:1982
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: inc/class-tgm-plugin-activation.php:1121
+#: inc/class-tgm-plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "그리고"
+
+#: inc/class-tgm-plugin-activation.php:937
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr "원격 플러그인 패키지가 하나 이상의 파일로 구성돼있지만 파일이 폴더에 패키지화 되지 않았습니다."
+
+#: inc/class-tgm-plugin-activation.php:934
+#: inc/class-tgm-plugin-activation.php:937
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr "플러그인 제공자에 연락해 워드프레스 가이드라인에 따른 플러그인 패키지화를 요청하세요."
+
+#: inc/class-tgm-plugin-activation.php:934
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr "원격 플러그인 패키지가 필요한 슬러그가 포함된 폴더가 없으며 이름 수정이 작동하지 않았습니다."
+
+#: inc/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr "업데이트 필요"
+
+#: inc/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr "이 플러그인은 테마와 호환되려면 업데이트 해야합니다."
+
+#: inc/class-tgm-plugin-activation.php:397 inc/extras.php:656
+msgid "Please contact the administrator of this site for help."
+msgstr "도움이 필요하면 이 사이트의 관리자에게 문의하세요."
+
+#: inc/class-tgm-plugin-activation.php:396 inc/extras.php:655
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr "설치, 업데이트, 활성화 할 하나 이상의 필수 또는 권장 플러그인이 있습니다."
+
+#: inc/class-tgm-plugin-activation.php:395 inc/extras.php:654
+msgid "Dismiss this notice"
+msgstr "이 공지 무시"
+
+#. translators: 1: dashboard link.
+#: inc/class-tgm-plugin-activation.php:394 inc/extras.php:653
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "모든 플러그인이 설치되고 성공적으로 활성화 됐습니다. %1$s"
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:392 inc/extras.php:651
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr "플러그인이 활성화 되지 않았습니다. %s의 더 높은 버전이 이 테마에 필요합니다. 플러그인을 업데이트 하세요."
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:390 inc/extras.php:649
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "작업이 없습니다. %1$s 플러그인이 이미 활성화 돼있습니다."
+
+#: inc/class-tgm-plugin-activation.php:388
+#: inc/class-tgm-plugin-activation.php:2952 inc/extras.php:647
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "다음 플러그인 활성화 성공:"
+
+#: inc/class-tgm-plugin-activation.php:387
+#: inc/class-tgm-plugin-activation.php:3159 inc/extras.php:646
+msgid "Plugin activated successfully."
+msgstr "플러그인이 성공적으로 활성화 됐습니다."
+
+#: inc/class-tgm-plugin-activation.php:386
+#: inc/class-tgm-plugin-activation.php:827
+#: inc/class-tgm-plugin-activation.php:2533
+#: inc/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr "관리자 화면으로 돌아가기"
+
+#: inc/class-tgm-plugin-activation.php:385 inc/extras.php:645
+msgid "Return to Required Plugins Installer"
+msgstr "필수 플러그인 설치로 돌아가기"
+
+#: inc/class-tgm-plugin-activation.php:380 inc/extras.php:640
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "플러그인 활성화 시작"
+
+#: inc/class-tgm-plugin-activation.php:375 inc/extras.php:635
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "플러그인 업데이트 시작"
+
+#: inc/class-tgm-plugin-activation.php:370 inc/extras.php:630
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "플러그인 설치 시작"
+
+#: inc/class-tgm-plugin-activation.php:333 inc/extras.php:593
+msgid "Something went wrong with the plugin API."
+msgstr "플러그인 API에 뭔가 잘못 됐습니다."
+
+#. translators: %s: plugin name.
+#: inc/class-tgm-plugin-activation.php:332 inc/extras.php:592
+msgid "Updating Plugin: %s"
+msgstr "플러그인 업데이트 중: %s"
+
+#. translators: %s: plugin name.
+#: inc/class-tgm-plugin-activation.php:330 inc/extras.php:590
+msgid "Installing Plugin: %s"
+msgstr "플러그인 설치중: %s"
+
+#: inc/class-tgm-plugin-activation.php:328 inc/extras.php:588
+msgid "Install Plugins"
+msgstr "플러그인 설치"
+
+#: inc/class-tgm-plugin-activation.php:327 inc/extras.php:587
+msgid "Install Required Plugins"
+msgstr "필수 플러그인 설치"
+
+#: inc/admin/class-flash-dashboard.php:97
+#: inc/admin/class-flash-theme-review-notice.php:105
+msgid "Got theme support question?"
+msgstr "테마 지원에 대한 질문이 있으신가요?"
+
+#: inc/class-flash-site-library.php:102 inc/class-flash-admin.php:171
+msgid "Get started with Flash"
+msgstr "Flash 시작하기"
+
+#: inc/class-flash-admin.php:165
+msgid "Welcome! Thank you for choosing Flash! To fully take advantage of the best our theme can offer please make sure you visit our %1$swelcome page%2$s."
+msgstr "환영합니다! Flash를 선택해주셔서 감사합니다! 저희 테마를 최대한 활용하려면 %1$s환영 페이지%2$s를 방문해주세요."
+
+#: inc/class-flash-admin.php:156
+msgid "Dismiss"
+msgstr "무시하기"
+
+#: inc/class-flash-admin.php:134
+msgid "Cheatin&#8217; huh?"
+msgstr "속이지 마세요!"
+
+#: inc/class-flash-admin.php:130
+msgid "Action failed. Please refresh the page and retry."
+msgstr "작업 실패. 페이지를 새로고침 하고 다시 해보세요."
+
+#: header.php:59
+msgid "Skip to content"
+msgstr "콘텐츠로 바로가기"
+
+#: functions.php:187
+msgid "Add widgets here for footer sidebar 4."
+msgstr "푸터 사이드바 4는 여기에 위젯을 추가하세요."
+
+#: functions.php:185
+msgid "Footer Sidebar 4"
+msgstr "푸터 사이드바 4"
+
+#: functions.php:177
+msgid "Add widgets here for footer sidebar 3."
+msgstr "푸터 사이드바 3은 여기에 위젯을 추가하세요."
+
+#: functions.php:175
+msgid "Footer Sidebar 3"
+msgstr "푸터 사이드바 3"
+
+#: functions.php:167
+msgid "Add widgets here for footer sidebar 2."
+msgstr "푸터 사이드바 2는 여기에 위젯을 추가하세요."
+
+#: functions.php:165
+msgid "Footer Sidebar 2"
+msgstr "푸터 사이드바 2"
+
+#: functions.php:157
+msgid "Add widgets here for footer sidebar 1."
+msgstr "푸터 사이드바 1은 여기에 위젯을 추가하세요."
+
+#: functions.php:155
+msgid "Footer Sidebar 1"
+msgstr "푸터 사이드바 1"
+
+#: functions.php:147
+msgid "Add widgets here for left sidebar."
+msgstr "좌측 사이드바는 여기에 위젯을 추가하세요."
+
+#: functions.php:145 inc/meta-boxes.php:24
+msgid "Left Sidebar"
+msgstr "좌측 사이드바"
+
+#: functions.php:137
+msgid "Add widgets here for right sidebar."
+msgstr "우측 사이드바는 여기에 위젯을 추가하세요."
+
+#: functions.php:135 inc/meta-boxes.php:19
+msgid "Right Sidebar"
+msgstr "우측 사이드바"
+
+#: functions.php:61
+msgid "Footer"
+msgstr "푸터"
+
+#: functions.php:60
+msgid "Social"
+msgstr "소셜"
+
+#: functions.php:59
+msgid "Primary"
+msgstr "메인"
+
+#: comments.php:92
+msgid "Comments are closed."
+msgstr "댓글이 닫혀있습니다."
+
+#: comments.php:57 comments.php:79
+msgid "Newer Comments"
+msgstr "새 댓글"
+
+#: comments.php:56 comments.php:78
+msgid "Older Comments"
+msgstr "이전 댓글"
+
+#: comments.php:53 comments.php:75
+msgid "Comment navigation"
+msgstr "댓글 내비게이션"
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:37
+msgctxt "comments title"
+msgid "%1$s Reply to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s Thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "&ldquo;%2$s&rdquo;의 %1$s개의 댓글"
+
+#. translators: %s: post title
+#: comments.php:33
+msgctxt "comments title"
+msgid "One Thought on &ldquo;%s&rdquo;"
+msgstr "&ldquo;%s&rdquo;의 한가지 생각"
+
+#: 404.php:29
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "현재 위치에서는 아무것도 찾을 수 없는 것 같습니다. 아래의 링크나 검색을 시도해보세요."
+
+#: 404.php:25
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "이런! 해당 페이지를 찾을 수 없습니다."
+
+#: inc/admin/class-flash-dashboard.php:88
+msgid "Documentation"
+msgstr "문서"
+
+#. Author URI of the theme
+msgid "https://themegrill.com"
+msgstr "https://themegrill.com"
+
+#. Author of the theme
+msgid "ThemeGrill"
+msgstr "ThemeGrill"
+
+#. Theme URI of the theme
+msgid "https://themegrill.com/themes/flash"
+msgstr "https://themegrill.com/themes/flash"

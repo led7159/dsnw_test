@@ -1,0 +1,153 @@
+/* ========================================================================= */
+/* header */
+/* ========================================================================= */
+#header {
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.header-txt a {
+	color: $font-primary-color;
+	font-size: 17px;
+}
+
+#gnb-top {
+	height: 35px;
+	background-color: $header-gnb-top-color;
+	text-align: right;
+	border-bottom: 1px solid #d2d2d2;
+}
+
+.btn-admin {
+	float:left;
+	font-weight: 600;
+	font-size: 15px;
+	margin-top: 8px;
+	color: $primary-color;
+}
+ 
+.gnb-txt {
+	float: right;
+}
+
+.gnb-txt a {
+	font-size: 13px;
+	color: #646464;
+}
+
+.btn-gnb { 
+	text-align:center; 
+	float:right;
+	padding: 4px 9px; 
+	border-radius: 5px;
+	margin-top: 6px;
+	font-weight: 600;
+}
+
+.btn-map { 
+	float:right;
+	font-size: 11px;
+	border: 1px solid #999;
+	background-color: white;
+	text-align:center; 
+	padding: 7px 9px 4px 9px; 
+	border-radius: 5px;
+	margin-top: 4px;
+	margin-right: 0px;
+}
+
+#logo {
+	height: 90px; 
+	width: 400px; 
+	float: left;
+}
+
+#logo img {
+	padding-top: 25px;
+}
+
+.gnb-header-txt {
+	float:right;
+	margin-top: 50px;
+	font-size:17px;
+}
+
+.gnb-header-txt img {
+	margin-right: 7px;
+}
+
+#lnb {
+	height: 55px;
+	background-color: $primary-color;
+	border-bottom: 2px solid #79be30;
+}
+
+#lnb #lnb_menu a {
+	color: white;
+	display: block;
+	float: left;
+	font-size: 20px;
+	text-align: center;
+	margin-left:68px;
+	margin-top: 16px;
+}
+
+/* ========================================================================= */
+/* navigation */
+/* ========================================================================= */
+#gnb {
+	height: 35px;
+	background-color: #f5f2ed;
+	text-align: right;
+	border-bottom: 1px solid #d2d2d2;
+}
+
+.inner {
+	font-size: 17px;
+	font-weight: 600;
+	width: 152px;
+	height: 36px;
+	border-bottom: 2px solid #888;
+	margin-bottom: 25px;
+}
+
+.inner-rest {
+	width: 110px;
+}
+
+.main-menubar {
+	float: left;
+	padding-left: 30px;
+	font-size: 15px;
+	font-weight: 500;
+	text-align:center;
+	margin-left: 45px;
+}
+
+.main-menubar > li {
+	float: left;
+	margin-left: 0px;
+}
+
+.main-menubar > li:first-child {
+	margin-left: 0px;
+}
+
+.main-menu > li {
+	padding-bottom: 13px;
+}
+
+.main-menu {
+	margin-left: 35px;
+}
+
+.main-menu > li > a {
+	color: #777;
+}
+.main-menubar li{
+	list-style-type:none;
+}
+
+.menu_btn {
+	margin-top:5px;
+}

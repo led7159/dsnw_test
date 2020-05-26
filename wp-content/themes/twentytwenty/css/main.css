@@ -1,0 +1,325 @@
+/**
+ * FileName		: main.css
+ * Description	: main
+ * Author		: (주)한국공학기술연구원
+ * Created		: 2015.01.20
+ * Modified		: V1.0 : 2015.01.20 : KSH : 최초 작성
+ * Comment	    :
+ */
+
+/* ========================================================================= */
+/* 초기화 */
+/* ========================================================================= */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  border: 0;
+  font-family: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
+  text-decoration: none;
+  color: black;
+}
+html {
+  font-size: 62.5%;
+  /* Corrects text resizing oddly in IE6/7 when body font-size is set using em units http://clagnut.com/blog/348/#c790 */
+  overflow-y: scroll;
+  /* Keeps page centred in all browsers regardless of content height */
+  -webkit-text-size-adjust: 100%;
+  /* Prevents iOS text size adjust after orientation change, without disabling user zoom */
+  -ms-text-size-adjust: 100%;
+  /* www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/ */
+}
+body {
+  background: #fff;
+  font-size: 15px;
+  color: #666;
+  font-family: 'Nanum Barun Gothic', sans-serif;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+  display: block;
+}
+ol,
+ul {
+  list-style: none;
+}
+table {
+  /* tables still need 'cellspacing="0"' in the markup */
+  border-collapse: separate !important;
+  border-spacing: 0;
+}
+caption,
+th,
+td {
+  font-weight: normal;
+  text-align: left;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+}
+blockquote,
+q {
+  quotes: "" "";
+}
+a:focus {
+  outline: 0;
+  text-decoration: none;
+}
+a:hover,
+a:active {
+  /* Improves readability when focused and also mouse hovered in all browsers people.opera.com/patrickl/experiments/keyboard/test */
+  outline: 0;
+  color: #21759b;
+  text-decoration: none;
+}
+a img {
+  border: 0;
+}
+
+/* ========================================================================= */
+/* 메인 화면 */
+/* ========================================================================= */
+
+@import url('https://cdn.rawgit.com/openhiun/hangul/14c0f6faa2941116bb53001d6a7dcd5e82300c3f/nanumbarungothic.css');
+
+#main {
+	width:100%;
+	height: 1684px;
+	background: url(../images/main/main.png) no-repeat center center;
+	background-size:cover;
+	overflow:hidden;
+	margin-bottom: 30px;
+}
+
+#bg{
+	width:100%;
+	height: 561px;
+	overflow:hidden;
+	margin-bottom: 30px;
+}
+
+.title-txt {
+	font-size: 20px;
+	color: #2d2d2d;
+	margin-top: 13px;
+	margin-bottom: 23px;
+	float:left;
+}
+
+#notice {
+	height: 75px;
+	margin-bottom: 13px;
+	float:left;
+}
+
+#date {
+	float:left;
+	width: 55px;
+	margin: 0 auto;
+	overflow: hidden;
+	text-align: center;
+}
+
+.day {
+	font-size: 24px;
+	font-weight: 600;
+	color: #333;
+}
+
+.year {
+	font-size: 13px;
+	color: #999;
+	line-height: 1.4;
+}
+
+#notice-content {
+	float:left;
+	width: 277px;
+	padding-left: 15px;
+}
+
+.notice-txt {
+	font-size: 17px;
+	line-height:1.6;
+}
+
+#shortcut-business {
+	background: url(../images/main/img_business.png) no-repeat center center;
+	background-size:cover;
+	height: 430px;
+}
+
+.shortcut-business-txt {
+	font-size: 20px;
+	color: white;
+	padding-top: 160px;
+	margin-left: 20px;
+	line-height: 1.3;
+}
+
+.shortcut-business-btn {
+	width: 130px;
+	font-size: 15px;
+	color: #22ac38;
+	border-radius: 20px;
+	background-color:  white;
+	text-align: center;
+	padding: 9px 0px;
+	margin-left: 195px;
+	margin-top: 20px;
+}
+
+#shortcut-menu {
+	background: url(../images/main/bg_shortcut.png) no-repeat center center;
+	background-size:cover;
+	height: 428px;
+}
+
+#shortcut {
+	width: 181px;
+	height: 139px;
+	float:left;
+	padding-top: 95px;
+	text-align:center;
+}
+
+.shortcut-txt {
+	color: #666;
+	text-align: center;
+	padding-top: 10px;
+	font-size: 15px;
+}
+
+.shortcut-txt a {
+	color: #2d2d2d;
+}
+
+
+#container-bottom {
+	background-color: #f7fce7;
+	height: 280px;
+}
+
+.donation-title {
+	padding-top: 60px;
+	font-size: 26px;
+}
+
+.donation-sub {
+	padding: 20px 0;
+	font-size: 15px;
+	line-height: 1.5;
+}
+
+.donation-btn {
+	float:left;
+	text-align: center;
+	width: 200px;
+	font-size:17px;
+	padding: 13px;
+	background-color: #22ac38;
+	color:white;
+	margin-right: 10px;
+	border: 1px solid #ddd;
+}
+
+.call-center {
+	height: 50px;
+	border: 2px solid #22ac38;
+	text-align:center;
+	font-size: 20px;
+	padding-top: 12px;
+}
+
+#question {
+	background: url(../images/main/img_main_center.png) no-repeat center center;
+	width: 100%;
+	height: 172px;
+	border: 2px solid #ddd;
+}
+
+.question-txt {
+	text-align:center;
+	padding-top: 70px;
+	font-size: 17px;
+	color: #666;
+}
+
+.method {
+	height: 72px;
+	background-color: #22ac38;
+	text-align:center;
+	color: white;
+	font-size: 17px;
+	padding-top: 26px;
+}

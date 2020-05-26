@@ -1,0 +1,40 @@
+										/*primary*/
+$primary-color:#18982d;
+$sub-color:#22ac38;
+
+										/*font*/
+$font-primary-color:#666;
+$font-sub-color: #333;
+
+										/*header*/
+$header-gnb-top-color : #f5f2ed;
+
+										/*header-submenu*/
+$header-submenu-primary-txt-color : #22ac38;
+
+										/*footer*/
+$footer-top-color : #6c6b69;
+$footer-top-txt-color : #dcdcdc;
+$footer-bottom-color: #5f5e5d;
+$footer-bottom-txt-color : #dcdcdc;
+
+										/*btn*/
+$btn-color : #22ac38;
+
+
+
+
+
+
+@import "pages/business-chk.scss";
+@import "pages/business.scss";
+@import "layout/header.scss";
+@import "layout/footer.scss";
+@import "base/reset.scss";
+@import "themes/theme.scss";
+@import "layout/navigation.scss";
+@import "main.scss";
+@import "layout/table.scss";
+@import "base/typography.scss";
+@import "layout/forms.scss";
+@import "layout/common.scss";
