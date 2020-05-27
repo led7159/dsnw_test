@@ -218,7 +218,7 @@
 	<LI tabindex="0" class="gnb_2dp_2dp">
 		<div id="sub-menu-1">
 			<div class="sub-menu-txt">대신네트웍스 순천은<br>고객과 20년간 함께해온<br>파트너입니다.</div>
-			<IMG src="<?php echo get_template_directory_uri(); ?>/images/submenu/ico_menu-1.png" alt="">
+			<IMG src="<?php echo get_template_directory_uri(); ?>/images/submenu/ico_menu-1.png" alt="" width="100px" height="100px">
 		</div>
 
 		<ul class="sub-menu">
