@@ -12,8 +12,8 @@
  * @package WordPress
  * @subpackage Twenty_Fifteen
  * @since Twenty Fifteen 1.0
- */
 테스트야 테스트
+ */
 get_header(); ?>
 
 <link href="<?php echo get_template_directory_uri(); ?>/stylesheets/sass/components/js-image-slider.css" rel="stylesheet" type="text/css" />
